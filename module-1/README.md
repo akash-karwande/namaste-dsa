@@ -1,5 +1,3 @@
-# namaste-dsa
-
 ## Module 1: Loops
 
 This module demonstrates few important loops in JavaScript:
