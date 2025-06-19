@@ -9,7 +9,7 @@ This module demonstrates few important loops in JavaScript:
 3. **Do-While Loop**: Executes a block of code at least once, then continues as long as the condition is true.
    - Example: Logs the iteration number at least once, and continues while the condition `k < 5` is true.
 
-You can find the implementation in [module-1/loops.js](module-1/loops.js).
+You can find the implementation in [loops.js](loops.js).
 
 ## Example.js Documentation
 
@@ -92,4 +92,4 @@ findSecondLargestNumber([4]);         // Returns: null
 File Path
 The file is located at:
 
-You can find the implementation in [module-1/example.js](module-1/example.js).
+You can find the implementation in [example.js](example.js).
