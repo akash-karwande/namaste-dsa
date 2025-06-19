@@ -2,7 +2,7 @@
 
 ## Module 1: Loops
 
-This module demonstrates three types of loops in JavaScript:
+This module demonstrates few important loops in JavaScript:
 
 1. **For Loop**: Executes a block of code a specific number of times.
    - Example: Logs the iteration number 5 times.
@@ -13,11 +13,9 @@ This module demonstrates three types of loops in JavaScript:
 
 You can find the implementation in [module-1/loops.js](module-1/loops.js).
 
-# Example.js Documentation
+## Example.js Documentation
 
 This file contains utility functions for performing various operations on arrays.
-
-## Functions
 
 ### 1. `searchElement(array, element)`
 Searches for an element in an array and returns its index or `-1` if not found.
@@ -95,7 +93,5 @@ findSecondLargestNumber([4]);         // Returns: null
 
 File Path
 The file is located at:
-
-[example.js](http://_vscodecontentref_/2)
 
 You can find the implementation in [module-1/example.js](module-1/example.js).
