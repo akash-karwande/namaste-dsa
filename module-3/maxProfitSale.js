@@ -44,12 +44,12 @@ function maxProfit2(prices) {
 
 function maxProfit3(prices) {
     let maxProfit = 0;
-    let min = prices[0];
-    for (let i = 1; i < prices.length; i++) {
+    let min = prices[0]; // holds buy values
+    for (let i = 1; i < prices.length; i++) { // i holds sell values
         if(prices[i] - min > maxProfit) {
             maxProfit = prices[i] - min
         }
-        if(min > prices[i]) {
+        if(min > prices[i]) { // if low value found update buy 
             min = prices[i]
         }
     }
