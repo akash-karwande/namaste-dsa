@@ -10,7 +10,8 @@ function removeElements(arr, ele) {
             x = x +1
         }
     }
-    console.log(arr)
+    console.log(arr);
+    return x;
 }
 
 console.log(removeElements([3,2,2,3], 3));
