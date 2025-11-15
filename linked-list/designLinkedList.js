@@ -55,3 +55,14 @@ MyLinkedList.prototype.deleteAtIndex = function (index) {
   }
   this.size--;
 };
+
+const list = new MyLinkedList();
+
+list.addAtHead(2);
+
+list.addAtHead(4);
+
+console.log(list.get(1));
+
+console.log('//////////')
+console.log(list)
