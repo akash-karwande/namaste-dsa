@@ -21,4 +21,22 @@ function lastWordLength(str) {
     return count;
 }
 
-console.log(lastWordLength('  fly   to   the moon    '))
+// 2nd approach with one while 
+
+function lastWordLength2(str) {
+    let n = str.length - 1;
+    let count = 0;
+
+    while(n >= 0) {
+        if(str[n] !== ' ') {
+            count++;
+        } else if(count > 0){
+            break
+        }
+
+        n--;
+    }
+    return count
+}
+
+console.log(lastWordLength2('  fly   to   the moon    '))
