@@ -4,11 +4,14 @@
 
 function lastWordLength(str) {
     let n = str.length - 1;
+    console.log(n)
     // trim the spaces from end
     while(n >= 0) {
         if(str[n] !== ' ') break
         n--;
     }
+
+    console.log(n)
 
     let count = 0;
     // return the count of last word
@@ -17,6 +20,8 @@ function lastWordLength(str) {
         count++;
         n--;
     }
+
+    console.log(n)
 
     return count;
 }
@@ -39,4 +44,4 @@ function lastWordLength2(str) {
     return count
 }
 
-console.log(lastWordLength2('  fly   to   the moon    '))
+console.log(lastWordLength('  fly   to   the moon    '))
