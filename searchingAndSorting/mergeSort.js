@@ -9,6 +9,7 @@ function mergeSort(arr) {
     return mergeHelper(left, right);
 }
 
+
 function mergeHelper(left, right) {
     let res = [];
     let i = 0;

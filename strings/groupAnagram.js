@@ -4,8 +4,10 @@
 
 
 function groupAnagram(strs) {
+    let group = [];
     if(strs.length < 2) {
         group.push(strs);
+        return group
     }
     let map = {};
     for(let i = 0; i < strs.length; i++) {

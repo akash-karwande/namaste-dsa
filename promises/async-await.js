@@ -7,7 +7,7 @@ let p1 = new Promise(function(resolve, reject) {
 let p2 = new Promise(function(resolve, reject) {
     setTimeout(function(){
         resolve("P2 resolved")
-    }, 10000)
+    }, 1000)
 });
 
 async function getData() {

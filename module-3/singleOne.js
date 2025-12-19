@@ -8,13 +8,13 @@
 
 function findSingleCountDigit(arr) {
     let xor = 0;
-    for(let i=0; i< arr.length; i++) {
+    for (let i = 0; i < arr.length; i++) {
         xor = xor ^ arr[i]
     }
     return xor
 }
 
-console.log(findSingleCountDigit([2,2,1]));
+console.log(findSingleCountDigit([2, 2, 1]));
 
 // ^ bitwise xor operator
 
